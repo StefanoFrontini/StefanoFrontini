@@ -45,7 +45,7 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 
 🔭 I’m currently building my Portfolio Website.
 
-📫 Connect with me on Twitter!
+📫 Connect with me on [Twitter](https://twitter.com/ste_fro)!
 
 👯 I’m looking to collaborate on open source projects!
 
