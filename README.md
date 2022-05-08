@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 
 ## A self-taught web developer based in Milan, Italy. 
 
-My passion for programming and my desire for learning has grown enormously in recent years and this has prompted me to change my career 🏃‍♂️✨. 
+My passion for programming and my desire for learning has grown enormously in recent years and this has prompted me to change my career! 🏃‍♂️✨ 
 
 This is my story 👇
 
@@ -39,11 +39,11 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 🌱 Right now I'm studying:
 - CSS
 - Javascript
+- React
 - Data structures and algorithms
 - Canvas API
-- React
 
-🔭 I’m currently building my Portfolio Website.
+🔭 I’m currently building my Portfolio Website and freelancing.
 
 📫 Connect with me on [Twitter](https://twitter.com/ste_fro)!
 
