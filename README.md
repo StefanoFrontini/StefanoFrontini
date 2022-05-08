@@ -36,7 +36,7 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 
 - In order to improve the consulting services offered to my customers, I created [Energy Dashboard](https://energy-report.netlify.app/): an app that allows me to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends. The development of this app allowed me to delve into the React framework, the D3 library, user authentication and GraphQL.
 
-- I March 2022 I got the [Freecodecamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
+- I March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
 
 🌱 Right now I'm studying:
 - CSS
