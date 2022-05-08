@@ -41,7 +41,7 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 - Javascript
 - Data structures and algorithms
 - Canvas API
-- Node.js
+- React
 
 🔭 I’m currently building my Portfolio Website.
 
