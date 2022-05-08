@@ -49,14 +49,9 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 
 📫 Connect with me on Twitter!
 
-👯 I’m looking to collaborate on open source projects
+👯 I’m looking to collaborate on open source projects!
 
 📄 Want to know about my experiences? Visit my [LinkedIn](https://www.linkedin.com/in/stefano-frontini/)!
-
-
-![image](https://user-images.githubusercontent.com/24897617/167284348-bd9fda1c-0000-4448-bb31-ebb58a7e66e6.png)
-
-
 
 [![Stefano's GitHub stats](https://github-readme-stats.vercel.app/api?username=StefanoFrontini&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
 
