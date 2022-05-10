@@ -12,13 +12,40 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# Nice to meet you, I'm Stefano 👋
 
-## A self-taught web developer based in Milan, Italy. 
+<h1 align="center">Nice to meet you, I'm Stefano 👋</h1>
+
+<p align="center">A self-taught web developer based in Milan, Italy using Javascript, React, Strapi. </p>
+
+<br>
+
+<h2 align="center">My favorite projects 💻</h2>
+<br />
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652172136/energy-dashboard-crop_ifvodk.png" />
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652171941/bsp-crop_nhieug.png" />
+ <a href="https://github.com/StefanoFrontini/energy-dashboard">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170094/energy-dashboard-thumbnail_dzyizb.png" />
+</a>
+  <a href="https://github.com/StefanoFrontini/bsp">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170100/bsp-thumbnail_ddk5hc.png" />
+</a>
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170442/pillole_qxfrx4.png" />
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652171655/devbot-crop_vgtllw.png" />
+  <a href="https://github.com/StefanoFrontini/pilloledienergia">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170101/pilloledienergia-thumbnail_j6gf49.png" />
+</a>
+<a href="https://github.com/StefanoFrontini/PersonalDevBot">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170100/personaldevbot-thumbnail_xrxh9u.png" />
+</a>
+</p>
+
+<br>
+
+<h2 align="center">About me 😇</h2>
 
 My passion for programming and my desire for learning has grown enormously in recent years and this has prompted me to change my career! 🏃‍♂️✨ 
-
-This is my story 👇
 
 I've always been interested in technology. I was really happy that day when my parents gave me the Commodore 64 as a gift. In addition to having fun with the games, I remember the emotion while writing the first few lines of code in Basic taken from a book I had ordered by mail. 
 
@@ -36,7 +63,7 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 
 - In order to improve the consulting services offered to my customers, I created [Energy Dashboard](https://energy-report.netlify.app/): an app that allows me to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends. The development of this app allowed me to delve into the React framework, the D3 library, user authentication and GraphQL.
 
-- I March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
+- In March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
 
 🌱 Right now I'm studying:
 - CSS
