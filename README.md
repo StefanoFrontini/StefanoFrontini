@@ -70,7 +70,7 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
 - Javascript
 - React
 - Data structures and algorithms
-- Canvas API
+- Canvas API [Particles effect with HTML5 and Vanilla JS](https://github.com/StefanoFrontini/particles) 
 
 🔭 I’m currently building my Portfolio Website and freelancing.
 
