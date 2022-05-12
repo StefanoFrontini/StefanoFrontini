@@ -64,7 +64,7 @@ In 2017 I built [PersonalDevBot](https://github.com/StefanoFrontini/PersonalDevB
 
 <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652335977/devbot-save_1_nqx9n2.png" />
-  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652301631/devbot-tweet_ve3iik.png" />
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652370218/devbot-home_gbhwsr.png" />
   </p>
   
 
