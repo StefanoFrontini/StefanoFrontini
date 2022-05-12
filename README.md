@@ -113,13 +113,13 @@ The site had to have:
   </p> 
 - good design.
 
-As regards technology I wanted to try a frontend framework like Vue.js. The problem though is that single page application are not good for SEO so I decided to go for a static site generator called Gridsome. Gridsome heavely relies on GraphQL to get data from API's. I learned GraphQL queries and decided to interact with FaunaDB using GraphQL to save email addresses.
+As regards the technology I wanted to try a frontend framework like Vue.js. The problem though is that single page application are not good for SEO so I decided to go for a static site generator called Gridsome. Gridsome heavely relies on GraphQL to get data from API's. I learned GraphQL queries and decided to interact with FaunaDB using GraphQL to save email addresses.
 
-Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was D3.js. Why not take this opportunity to learn how to use D3? So I decided to use D3 for all the charts of the website. I wanted Vue to render the DOM and use D3 only for the built-in shapes. The implementation was hard due to lack of documentation (blogs/videos) about this topic.
+Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was D3.js. Why not take this opportunity to learn how to use D3? So I decided to use D3 for all the charts of the website. I wanted Vue to handle the DOM and use D3 only for the built-in shapes. The implementation was hard due to lack of documentation (blogs/videos) about this topic.
 
 I decided also to deploy the site to Netlify and use Serverless functions to intereact with FaunaDB. Serverless functions were really nice to use! It's like having a server but without the complications of running one!
 
-One big problem was to format nicely the email sent to users completing the energy check-up. I discovered that formatting an email with html is very difficult! So I decided to go for an email framework called MJML.
+One big problem was to format nicely the email sent to users after having completed the energy check-up. I discovered that formatting an email with html is very difficult! So I decided to go for an email framework called MJML.
 
 For the design of the homepage and the energy check-up I decided to hire an Art Director. I loved working with her! 
  
@@ -199,15 +199,75 @@ I learned a lot about the search and autocomplete functionality provided by Algo
 
 I learned also how to interact with the MailChimp and Telegram API. 
 
-Implementing members reviews to other members required also a lot of effort. It's like building a social app! 
+Implementing members reviews required also a lot of effort. It's like building a social app! 
 
 When someone signs up for an event, the app updates the db and generates a unique member profile page with this slug: bsdating.com/firstName-lastName. What happens if two people with same name sign up? I had a hard time figuring it out how to solve this problem!
 
 
 ### Energy Dashboard
 
-In order to improve the consulting services offered to my customers, I created [Energy Dashboard](https://energy-report.netlify.app/): an app that allows me to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends. The development of this app allowed me to delve into the React framework, the D3 library, User authentication and GraphQL.
+In order to speed up the workflow and improve the consulting services offered to my customers, I created [Energy Dashboard](https://github.com/StefanoFrontini/energy-dashboard): an app that allows me:
+- to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends;
+- print a PDF report to be delivered to the customer.
 
+For this project I wanted to use React because it is a very popular library and because when I tried it I fell in love with it!
+
+Tech stack: HTML, CSS, Javascript, React, D3, GraphQL, JWT, Cookies, Strapi.
+
+User should be able to:
+
+- upload a 3-year time series for each of his clients to a content management system (CMS)
+- log into account
+- display the list of all his clients in a sidebar
+- search for a specific client
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652366128/energy-dashboard-clients_cb0qag.png" />   
+  </p>
+
+
+- print the report with charts and comments in PDF
+
+Type of charts needed:
+
+- Line plot with three groups
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652366580/energy-dashboard-line-chart_bykonh.gif" />
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652367736/energy-dashboard-hourly_p2u0j4.gif" />
+  </p>
+
+- Grouped barplot
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652366881/energy-dashboard-bands_umep82.gif" />   
+  </p>
+
+- Scatterplot
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652367181/energy-dashboard-scatterplot_dnameb.gif" />   
+  </p>
+  
+This project allowed me to familiarize myself with React and learn how to combine React and D3.
+
+As Amelia Wattenberger stated in this [article](https://wattenberger.com/blog/react-and-d3):
+
+> These two technologies (React and D3) are notoriously tricky to combine. The crux of the issue is that **they both want to handle the DOM.**
+
+What are the benefits of using standard JSX instead of running d3 code on mount? Following Amalia:
+
+> - **Declarative instead of imperative**. The code describes what is being drawn, instead of how to draw it.
+> - **Less code**.
+> - **Less hacky**. React is, chiefly, a rendering library, and has many optimizations to keep our web apps performant. When adding elements using d3, we're hacking around React, and essentially have to fight against those optimizations. Hacking around your JS framework is a recipe for future frustration, especially if the framework's API changes.
+
+So I decided to let React handle the DOM and use the powerful D3 built-in shapes.
+
+Once I figured it out how React would render the data to generate the line chart with multiple groups and so the shape of the dataset it expects - basically a nested array, I faced the problem of how to generate the nested array starting from the dataset I got from the API.
+
+A big challenge was to draw the hourly consumptions charts (for a 3-year time series it means more 24.000 data points). I wanted to compare the average hourly consumption from year to year, month to month, working day to working day, Saturday to Saturday and Sunday to Sunday
+
+Another big issue was to print the hourly consumption charts nicely in PDF! 
+
+For user authentication to the Strapi backend I used JWT and Cookies. 
 
 <h2 align="center">Right now ✍🏻</h2>
 
