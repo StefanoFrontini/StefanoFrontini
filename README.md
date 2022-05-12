@@ -70,23 +70,24 @@ In 2017 I built [PersonalDevBot](https://github.com/StefanoFrontini/PersonalDevB
 
 ### Pillole di Energia
 
-During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. The site had to have: 
-- a link to my YouTube channel
-- an energy check-up to capture potential leads and save the email address to a database
-- charts showing the trend of the energy market and electric car registrations
-- good design.
-
-As regards technology I wanted to try a frontend framework like Vue.js. The problem though is that single page application are not good for SEO so I decided to go for a static site generator called Gridsome. Gridsome heavely relies on GraphQL to get data from API's. I learned GraphQL queries and decided to interact with FaunaDB using GraphQL to save email addresses. 
-
-I decided also to deploy the site to Netlify and use Serverless functions to call the DB. 
-
-One big problem was to format nicely the email sent to users completing the energy check-up. I discovered that formatting an email with html is very difficult! So I decided to go for a email framework called MJML.
-
-For the design of the homepage and the energy check-up I decided to hired an Art Director. I loved working with her! 
+During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. 
 
  <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652341645/pillole-home-2_pn0f1z.png" />  
   </p>
+
+The site had to have: 
+- a carousel related to my latest videos on youtube
+
+<p align="center">
+  <img width="300" src="https://res.cloudinary.com/stefano75/image/upload/v1652351913/pillole-carosello_trxwqt.png" />
+  
+  </p>
+  
+- an energy check-up functionality to capture potential leads, send a report to the user by email and save the email address to a database;
+
+
+
 <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652337325/pillole-check-up-1_mw4tua.png" />
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652337439/energy-check-up-2_nxyin1.png" />
@@ -100,7 +101,9 @@ For the design of the homepage and the energy check-up I decided to hired an Art
   <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652338149/pillole-check-up-risultato_g6j1nw.png" />
   
-  Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was d3.js. Why not take this opportunity to learn how to use d3?
+  
+- charts showing the trend of the energy market and electric car registrations.
+  
   
   </p>
   <p align="center">
@@ -108,7 +111,18 @@ For the design of the homepage and the energy check-up I decided to hired an Art
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652338846/pillole-mercato_1_n3edjp.png" /> 
   
   </p> 
-  
+- good design.
+
+As regards technology I wanted to try a frontend framework like Vue.js. The problem though is that single page application are not good for SEO so I decided to go for a static site generator called Gridsome. Gridsome heavely relies on GraphQL to get data from API's. I learned GraphQL queries and decided to interact with FaunaDB using GraphQL to save email addresses.
+
+Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was D3.js. Why not take this opportunity to learn how to use D3? So I decided to use D3 for all the charts of the website. I wanted Vue to render the DOM and use D3 only for the built-in shapes. The implementation was hard due to lack of documentation (blogs/videos) about this topic.
+
+I decided also to deploy the site to Netlify and use Serverless functions to intereact with FaunaDB. Using Serverless functions were really nice to use! It's like having a server but without the complications of running one!
+
+One big problem was to format nicely the email sent to users completing the energy check-up. I discovered that formatting an email with html is very difficult! So I decided to go for an email framework called MJML.
+
+For the design of the homepage and the energy check-up I decided to hired an Art Director. I loved working with her! 
+ 
   
 ### Business Speed Dating
 
