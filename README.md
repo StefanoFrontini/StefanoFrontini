@@ -70,7 +70,7 @@ In 2017 I built [PersonalDevBot](https://github.com/StefanoFrontini/PersonalDevB
 
 ### Pillole di Energia
 
-During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. 
+During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. Tech stack: HTML, CSS Flexbox, SASS, Javascript, Vue, Gridsome, D3, graphQL, Markdown, MJML email framework.  
 
  <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652341645/pillole-home-2_pn0f1z.png" />  
@@ -117,11 +117,11 @@ As regards technology I wanted to try a frontend framework like Vue.js. The prob
 
 Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was D3.js. Why not take this opportunity to learn how to use D3? So I decided to use D3 for all the charts of the website. I wanted Vue to render the DOM and use D3 only for the built-in shapes. The implementation was hard due to lack of documentation (blogs/videos) about this topic.
 
-I decided also to deploy the site to Netlify and use Serverless functions to intereact with FaunaDB. Using Serverless functions were really nice to use! It's like having a server but without the complications of running one!
+I decided also to deploy the site to Netlify and use Serverless functions to intereact with FaunaDB. Serverless functions were really nice to use! It's like having a server but without the complications of running one!
 
 One big problem was to format nicely the email sent to users completing the energy check-up. I discovered that formatting an email with html is very difficult! So I decided to go for an email framework called MJML.
 
-For the design of the homepage and the energy check-up I decided to hired an Art Director. I loved working with her! 
+For the design of the homepage and the energy check-up I decided to hire an Art Director. I loved working with her! 
  
   
 ### Business Speed Dating
@@ -131,9 +131,9 @@ In 2021 I created a community to connect professionals and entrepreneus.
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652346439/bsd-9-maggio_kc8enp.jpg" />   
   </p> 
 
-The community was growing steadily and to minimize the workflow I needed an app that would allow me to manage the networking events and keep track of the contacts I developed. So I built [bsdating.com](https://github.com/StefanoFrontini/bsp). The challenge was quite big because:
+The community was growing steadily and to minimize the workflow I needed an app that would allow me to manage the networking events and keep track of the contacts I developed. So I built [bsdating.com](https://github.com/StefanoFrontini/bsp). Tech stack: HTML, CSS Flexbox and Grid, Vue, Gridsome, GraphQL, Algolia, Nodemailer, Strapi (headless CMS), Netlify. The challenge was quite big because:
 
-- Participants should be able to register for the event.
+- Participants should be able to register for the event and automatically be invited to subscribe to the MailChimp newsletter.
 
 <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652347222/bsd-event-registration_zwymwm.png" />   
@@ -189,8 +189,20 @@ The community was growing steadily and to minimize the workflow I needed an app 
 - Organizers should be able to access the database via a graphical interface.
 - Organizers should be autonomous in uploading a new event on the site.
 
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652353809/bsd-strapi_rmsmi9.png" />   
+  </p> 
    
-The development of this app allowed me to deepen Strapi (Headless CMS), user authentication and integration with the Mailchimp and Telegram APIs.
+By building this app I learned GraphQL and how to interact with Strapi to manage the database (CRUD operations and user authentication). 
+
+I learned a lot about the search and autocomplete functionality provided by Algolia. Really amazing what you can do! 
+
+I learned also how to interact with the MailChimp and Telegram API. 
+
+Implementing members reviews to other members required also a lot of effort. It's like building a social app! 
+
+When someone signs up for an event, the app updates the db and generates a unique member profile page with this slug: bsdating.com/firstName-lastName. What happens if two people with same name sign up? I had a hard time figuring it out how to solve this problem!
+
 
 ### Energy Dashboard
 
