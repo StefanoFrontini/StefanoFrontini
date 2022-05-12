@@ -49,11 +49,13 @@ My passion for programming and my desire for learning has grown enormously in re
 
 I've always been interested in technology. I was really happy that day when my parents gave me the Commodore 64 as a gift. In addition to having fun with the games, I remember the emotion while writing the first few lines of code in Basic taken from a book I had ordered by mail. 
 
-In 2016 I asked a web developer to help me create [myguitarsongs.com](https://myguitarsongs.com/). A simple change to the stylesheet of the site made without the help of the developer has rekindled my old passion for programming. 
+In 2016 I asked a web developer to help me create [myguitarsongs.com](https://myguitarsongs.com/). A simple change to the CSS of the site made without the help of the developer has rekindled my old passion for programming. 
 
 After studying the basics of programming thanks to Zed A. Shaw's book "Learn Python The Hard Way" I started building my first projects:
 
-- In 2017 I built [PersonalDevBot](https://github.com/StefanoFrontini/PersonalDevBot) a web application connected to a Twitter bot that allowed me to save  personal development quotes I liked on a database and then with a simple click on a button of the UI to publish them on Twitter. I built it with Python, Flask, mySQL. Building this application helped me learn about backend development: SQL queries and CRUD operations on a database, Schema, create and delete tables. I also learned the Flask web framework and how to implement user authentication.
+### Personal Dev Bot
+
+In 2017 I built [PersonalDevBot](https://github.com/StefanoFrontini/PersonalDevBot) a web application connected to a Twitter bot that allowed me to save  personal development quotes I liked on a database and then with a simple click on a button of the UI to publish them on Twitter. I built it with Python, Flask, mySQL. Building this application helped me learn about backend development: SQL queries and CRUD operations on a database, Schema, create and delete tables. I also learned the Flask web framework and how to implement user authentication.
 
 <p align="center">
   <img width="300" src="https://res.cloudinary.com/stefano75/image/upload/v1652301790/devbot-twitter_zj5ami.png" />
@@ -64,12 +66,15 @@ After studying the basics of programming thanks to Zed A. Shaw's book "Learn Pyt
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652335977/devbot-save_1_nqx9n2.png" />
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652301631/devbot-tweet_ve3iik.png" />
   </p>
+  
 
-- During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. The site had to have: 
-- - a link to my YouTube channel
-- - an energy check-up to capture potential leads and save the email address to a database
-- - charts showing the trend of the energy market and electric car registrations
-- - good design.
+### Pillole di Energia
+
+During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. The site had to have: 
+- a link to my YouTube channel
+- an energy check-up to capture potential leads and save the email address to a database
+- charts showing the trend of the energy market and electric car registrations
+- good design.
 
 As regards technology I wanted to try a frontend framework like Vue.js. The problem though is that single page application are not good for SEO so I decided to go for a static site generator called Gridsome. Gridsome heavely relies on GraphQL to get data from API's. I learned GraphQL queries and decided to interact with FaunaDB using GraphQL to save email addresses. 
 
@@ -95,31 +100,96 @@ For the design of the homepage and the energy check-up I decided to hired an Art
   <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652338149/pillole-check-up-risultato_g6j1nw.png" />
   
-  Years ago, when I worked for Repower as an employee, I had to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was d3.js. Why not take this opportunity to learn how to use d3?
+  Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was d3.js. Why not take this opportunity to learn how to use d3?
   
   </p>
   <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652338643/pillole-chart-cars_uorz9w.gif" />
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652338846/pillole-mercato_1_n3edjp.png" /> 
   
-  </p>
+  </p> 
   
- 
+  
+### Business Speed Dating
 
-- Finished the site of a friend of mine [partsncode](https://partscode.netlify.app/) I developed an application that allowed me to create a shared shopping list that is updated in real time [Grocery List Family Edition](https://listadellaspesa.herokuapp.com/). The development of this application allowed me to deepen the backend development with MongoDB and the Socket.IO protocol.
+In 2021 I created a community to connect professionals and entrepreneus. 
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652346439/bsd-9-maggio_kc8enp.jpg" />   
+  </p> 
 
-- In 2021, I needed an app that would allow me to manage the networking events I organized and keep track of the contacts I developed. So I built [bsdating.com](https://www.bsdating.com/). The app allows members of the community to see the events they have attended and the list of participants, search by name and / or profession, make reviews and keep their profile updated. The development of this app allowed me to deepen Strapi (Headless CMS), user authentication and integration with the Mailchimp and Telegram APIs.
+The community was growing steadily and to minimize the workflow I needed an app that would allow me to manage the networking events and keep track of the contacts I developed. So I built [bsdating.com](https://github.com/StefanoFrontini/bsp). The challenge was quite big because:
 
-- In order to improve the consulting services offered to my customers, I created [Energy Dashboard](https://energy-report.netlify.app/): an app that allows me to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends. The development of this app allowed me to delve into the React framework, the D3 library, User authentication and GraphQL.
+- Participants should be able to register for the event.
 
-- In March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652347222/bsd-event-registration_zwymwm.png" />   
+  </p> 
+
+- Participants should be able to receive a confirmation email.
+- Organizers should be able to receive an email notification when someone signs up for an event.
+- The site should show the record of past events and the calendar of upcoming events
+- Participants should be able to register and become members.
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652347097/bsd-register_hncktc.png" />   
+  </p> 
+
+- Community members should be able to login.
+
+- Community members should be able to see all the events they have attended 
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652347584/bsd-tuoiEventi_ggs1wp.png" />   
+  </p> 
+
+- Community members should be able to download the list of participants;
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652347724/bsd-lista_kmf5qk.png" />   
+  </p> 
+
+
+
+
+- Community members should be able to search other participants by name and / or profession;
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652348236/bsd-search_gkkxii.gif" />   
+  </p> 
+
+- Community members should be able to give reviews to other members;
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652348390/bsd-review_rbqqjl.png" />   
+  </p> 
+
+
+- Community members should be able to update their profile data.
+
+<p align="center">
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652347419/bsd-profilo_dtkeib.png" />   
+  </p> 
+
+- When someone gives a review to another member an automatic notification should be sent to the Telegram channel.
+- All participant and event data should be stored in a database.
+- Organizers should be able to access the database via a graphical interface.
+- Organizers should be autonomous in uploading a new event on the site.
+
+   
+The development of this app allowed me to deepen Strapi (Headless CMS), user authentication and integration with the Mailchimp and Telegram APIs.
+
+### Energy Dashboard
+
+In order to improve the consulting services offered to my customers, I created [Energy Dashboard](https://energy-report.netlify.app/): an app that allows me to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends. The development of this app allowed me to delve into the React framework, the D3 library, User authentication and GraphQL.
+
+
 
 🌱 Right now I'm studying:
 - CSS
 - Javascript
 - React
-- Data structures and algorithms
-- Canvas API [Particles effect with HTML5 and Vanilla JS](https://github.com/StefanoFrontini/particles) 
+- Data structures and algorithms. In March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
+- Canvas API 👉 [Particles effect with HTML5 and Vanilla JS](https://github.com/StefanoFrontini/particles) 
 
 🔭 I’m currently building my Portfolio Website and freelancing.
 
