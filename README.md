@@ -183,8 +183,9 @@ The development of this app allowed me to deepen Strapi (Headless CMS), user aut
 In order to improve the consulting services offered to my customers, I created [Energy Dashboard](https://energy-report.netlify.app/): an app that allows me to visually analyze my customers' electricity and gas consumption in order to bring out anomalies and trends. The development of this app allowed me to delve into the React framework, the D3 library, User authentication and GraphQL.
 
 
+<h2 align="center">Right now ✍🏻</h2>
 
-🌱 Right now I'm studying:
+🌱 I'm studying:
 - CSS
 - Javascript
 - React
@@ -198,6 +199,8 @@ In order to improve the consulting services offered to my customers, I created [
 👯 I’m looking to collaborate on open source projects!
 
 📄 Want to know about my experiences? Visit my [LinkedIn](https://www.linkedin.com/in/stefano-frontini/)!
+
+<h2 align="center">Stats 📊</h2>
 
 [![Stefano's GitHub stats](https://github-readme-stats.vercel.app/api?username=StefanoFrontini&theme=gruvbox)](https://github.com/anuraghazra/github-readme-stats)
 
