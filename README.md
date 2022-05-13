@@ -70,7 +70,7 @@ In 2017 I built [PersonalDevBot](https://github.com/StefanoFrontini/PersonalDevB
 
 ### Pillole di Energia
 
-During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. Tech stack: HTML, CSS Flexbox, SASS, Javascript, Vue, Gridsome, D3, graphQL, Markdown, MJML email framework.  
+During the lockdown period in 2020 I developed [pilloledienergia.com](https://www.pilloledienergia.com/): the website for the promotion of my activity as an energy consultant. Tech stack: HTML, CSS Flexbox, SASS, Javascript, Vue, Gridsome, D3, GraphQL, Markdown, MJML email framework.  
 
  <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652341645/pillole-home-2_pn0f1z.png" />  
@@ -115,7 +115,7 @@ The site had to have:
 
 As regards the technology I wanted to try a frontend framework like Vue.js. The problem though is that single page application are not good for SEO so I decided to go for a static site generator called Gridsome. Gridsome heavely relies on GraphQL to get data from API's. I learned GraphQL queries and decided to interact with FaunaDB using GraphQL to save email addresses.
 
-Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency specializing in data visualization. This project made me fall in love with data visualization and I discovered that the technology used was D3.js. Why not take this opportunity to learn how to use D3? So I decided to use D3 for all the charts of the website. I wanted Vue to handle the DOM and use D3 only for the built-in shapes. The implementation was hard due to lack of documentation (blogs/videos) about this topic.
+Years ago, when I worked for Repower as an employee, I was in charge of leading a team to develop a dashboard to visualize electricity and gas consumption data. We were helped by an agency whose specific area was data visualization. This project made me fall in love with data visualization and I discovered that the technology used was D3.js. Why not take this opportunity to learn how to use D3? So I decided to use D3 for all the charts of the website. I wanted Vue to handle the DOM and use D3 only for the built-in shapes. The implementation was hard due to lack of documentation (blogs/videos) about combining Vue and D3.
 
 I decided also to deploy the site to Netlify and use Serverless functions to intereact with FaunaDB. Serverless functions were really nice to use! It's like having a server but without the complications of running one!
 
@@ -126,7 +126,7 @@ For the design of the homepage and the energy check-up I decided to hire an Art 
   
 ### Business Speed Dating
 
-In 2021 I created a community to connect professionals and entrepreneus. 
+In 2021 a business partner and I created a community to connect professionals and entrepreneus. 
 <p align="center">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652346439/bsd-9-maggio_kc8enp.jpg" />   
   </p> 
