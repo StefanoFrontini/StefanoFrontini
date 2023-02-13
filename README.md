@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 
 <h1 align="center">Nice to meet you, I'm Stefano 👋</h1>
 
-<p align="center">A self-taught web developer based in Milan, Italy using Javascript, React, Strapi. </p>
+<p align="center">A self-taught web developer based in Milan, Italy. </p>
 
 <br>
 
@@ -274,11 +274,11 @@ For user authentication to the Strapi backend I used JWT and Cookies.
 🌱 I'm studying:
 - Next.js
 - Typescript
-- D3.js, React Spring.
+- D3.js, Framer Motion.
 - Data structures and algorithms. In March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
 - Canvas API 👉 [Particles effect with HTML5 and Vanilla JS](https://github.com/StefanoFrontini/particles) 
 
-🔭 I’m currently working for a [web agency](https://cp-srl.it/)
+🔭 I’m currently working for a [IT consulting company](https://cp-srl.it/)
 
 📫 Connect with me on [Twitter](https://twitter.com/ste_fro)!
 
