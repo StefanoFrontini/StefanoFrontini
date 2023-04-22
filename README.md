@@ -37,7 +37,8 @@ Here are some ideas to get you started:
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170101/pilloledienergia-thumbnail_j6gf49.png" />
 </a>
 <a href="https://github.com/StefanoFrontini/PersonalDevBot">
-  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170100/personaldevbot-thumbnail_xrxh9u.png" />
+  
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1678348964/liferay_l8y4cd.png" />
 </a>
 </p>
 
