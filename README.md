@@ -32,13 +32,13 @@ Here are some ideas to get you started:
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170100/bsp-thumbnail_ddk5hc.png" />
 </a>
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652337099/pillole-home_1_mu8xho.png" />
-  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652171655/devbot-crop_vgtllw.png" />
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1678348964/liferay_l8y4cd.png" />
   <a href="https://github.com/StefanoFrontini/pilloledienergia">
   <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1652170101/pilloledienergia-thumbnail_j6gf49.png" />
 </a>
 <a href="https://github.com/StefanoFrontini/PersonalDevBot">
   
-  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1678348964/liferay_l8y4cd.png" />
+  <img width="400" src="https://res.cloudinary.com/stefano75/image/upload/v1682156982/github-dashboard_nzs5x0.png" />
 </a>
 </p>
 
