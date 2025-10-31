@@ -276,15 +276,11 @@ For user authentication to the Strapi backend I used JWT and Cookies.
 <h2 align="center">Right now ✍🏻</h2>
 
 🌱 I'm studying:
-- Next.js
-- Typescript
-- D3.js, Framer Motion.
-- Data structures and algorithms. In March 2022 I got the [FreeCodeCamp certificate](https://www.freecodecamp.org/certification/StefanoFrontini/javascript-algorithms-and-data-structures): "Javascript Algorithms and Data Structures".
-- Canvas API 👉 [Particles effect with HTML5 and Vanilla JS](https://github.com/StefanoFrontini/particles) 
+- [From Nand To Tetris](https://www.coursera.org/learn/nand2tetris2), [course website](https://www.nand2tetris.org/)
+- Data structures and algorithms, computer architecture, compilers, parsers.
 
-🔭 I’m currently working for a [IT consulting company](https://cp-srl.it/)
 
-📫 Connect with me on [Twitter](https://twitter.com/ste_fro)!
+🔭 I’m currently working for a [IT consulting company](https://proactivity.it/)
 
 👯 I’m looking to collaborate on open source projects!
 
